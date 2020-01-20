@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shadewhite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/userPic"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:src="@drawable/user_profile_image" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/userPic"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/curve"
+                android:backgroundTint="@color/white">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/userNameEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="12dp"
+                        android:textColor="@color/lightblack"
+                        android:hint="Enter your Name"
+                        android:background="@null"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/branchL"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/userName"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/curve">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/branchEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="12dp"
+                        android:textColor="@color/lightblack"
+                        android:hint="Enter your branch"
+                        android:background="@null"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/collegeL"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/branchL"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/curve">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/collegeEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="12dp"
+                        android:textColor="@color/lightblack"
+                        android:hint="College Name"
+                        android:background="@null"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/genderCv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/collegeL"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="12dp"
+                app:elevation="0dp">
+
+                <RelativeLayout
+                    android:id="@+id/genderRl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/userName"
+                    android:padding="8dp"
+                    android:elevation="0dp">
+
+                    <TextView
+                        android:id="@+id/raw1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:text="Your Gender"
+                        android:textColor="@color/secondary"
+                        android:textSize="19sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:id="@+id/genderLl"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:weightSum="2"
+                        android:layout_below="@id/raw1"
+                        android:layout_marginTop="22sp">
+
+                        <RelativeLayout
+                            android:id="@+id/boyRl"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/boySrc"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/ic_boy"
+                                android:tint="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Boy"
+                                android:layout_below="@id/boySrc"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/lightblack"
+                                android:textSize="21sp"
+                                android:layout_marginTop="12dp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/girlRl"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/girlSrc"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/ic_girl"
+                                android:backgroundTint="@color/colorPrimary"
+                                android:tint="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Girl"
+                                android:layout_below="@id/girlSrc"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/lightblack"
+                                android:textSize="21sp"
+                                android:layout_marginTop="12dp" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

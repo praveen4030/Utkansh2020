@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ff4500</color>
+    <!--    <color name="colorPrimaryDark">#212121</color>-->
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#831850</color>
+    <color name="verylittlelightgrey">#FFFCFC</color>
+
+    <color name="greyPrimary">#959CA2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">@android:color/black</color>
+    <color name="grey">#CD817D7D</color>
+    <color name="secondary">#831850</color>
+    <color name="lightgrey">#F3F3F3</color>
+    <!--<color name="lightgrey">#70E9E9E9</color>-->
+    <color name="orange">#ff4500</color>
+    <color name="secondaryLight">#f48fb1</color>
+
+    <color name="yellow">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#E105166B</color>
+    <color name="colorblue">#303F9F</color>
+    <color name="pink">#fe104d</color>
+    <color name="red">#F33C2F</color>
+    <color name="transparent_red">#4BF33C2F</color>
+    <color name="pay_green">#ff1ab55f</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="transparent">#00E9E9E9</color>
+    <color name="fontcolor">#363636</color>
+    <color name="transparent_yellow">#9CFFC000</color>
+    <color name="light_yellow">#9CFFCC30</color>
+    <color name="home_grey">#EEEEEE</color>
+    <color name="whitegrey">#F8F8F8</color>
+    <color name="blue">#00BCD4</color>
+    <color name="lightblack">#424242</color>
+    <color name="lightred">#FFB6B6</color>
+    <color name="greenOk">#2ECC71</color>
+    <color name="redOk">#E74C3C</color>
+    <color name="Darkred">#D32F2F</color>
+    <color name="littleblack">#929292</color>
+    <color name="textblack">#494949</color>
+    <color name="mainappcolour">#000051</color>
+    <color name="mainappcolor">#2D3D4C</color>
+
+    <color name="allpostsgrey">#565656</color>
+
+    <color name="color_log_in">#94019c8f</color>
+    <color name="color_sign_up">#93303f9f</color>
+
+</resources>

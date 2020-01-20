@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "907622140597",
+    "firebase_url": "https://utkansh2020-7858e.firebaseio.com",
+    "project_id": "utkansh2020-7858e",
+    "storage_bucket": "utkansh2020-7858e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907622140597:android:149362e54a009d0f4accfc",
+        "android_client_info": {
+          "package_name": "com.kraigs.utkansh2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907622140597-6vk6ti6ipr9airf9onkfhfhuopb2u9vg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kraigs.utkansh2020",
+            "certificate_hash": "b9e331894d7cffe1ba92c8604e5f4ab0bf751157"
+          }
+        },
+        {
+          "client_id": "907622140597-2fatbsb5ctr51bdl433fc8p48gc3iv8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8kCjswSnvbI2_7wFaIOwdCd9cYlZ_hWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907622140597-2fatbsb5ctr51bdl433fc8p48gc3iv8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
