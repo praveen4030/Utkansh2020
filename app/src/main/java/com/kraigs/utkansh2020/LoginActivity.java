@@ -72,6 +72,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @BindView(R.id.otpLl)
     LinearLayout otpLl;
 
+
     @BindView(R.id.loginRl)
     RelativeLayout loginRl;
     TextView mobileTv;
